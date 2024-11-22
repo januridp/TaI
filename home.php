@@ -12,6 +12,7 @@
     <meta name="description" content="">
     <meta name="author" content="JDP">
     <link rel="shortcut icon" href="favicon.ico">
+	  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" defer></script>
 
     <title>Home | Tools and Information</title>
 
@@ -205,6 +206,7 @@ if ($app == isset($_POST['md5me'])) {
 <form action="#" method="post" class="form-inline">
     <label for="md5me">String:</label>
     <input name="md5me" id="md5me" type="text" class="form-control" />
+	<div class="cf-turnstile" data-sitekey="0x4AAAAAAA0mwmJW4SiePBYu"></div>
     <input class="btn btn-sm btn-primary" type="submit" value="Brat!" />
 </form>
 </p>
@@ -215,6 +217,7 @@ if ($app == isset($_POST['md5me'])) {
 <form action="#" method="post" class="form-inline">
     <label for="String2Hexme">String:</label>
     <input name="String2Hexme" id="String2Hexme" type="text" class="form-control" />
+	<div class="cf-turnstile" data-sitekey="0x4AAAAAAA0mwmJW4SiePBYu"></div>
     <input class="btn btn-sm btn-primary" type="submit" value="Brit!" />
 </form>
 
@@ -226,6 +229,7 @@ if ($app == isset($_POST['md5me'])) {
 <form action="#" method="post" class="form-inline">
     <label for="Hex2Stringme">Hex:</label>
     <input name="Hex2Stringme" id="Hex2Stringme" type="text" class="form-control" />
+	<div class="cf-turnstile" data-sitekey="0x4AAAAAAA0mwmJW4SiePBYu"></div>
     <input class="btn btn-sm btn-primary" type="submit" value="Brut!" />
 </form></p>
         <h4>h44</h4>
@@ -252,6 +256,7 @@ if ($app == isset($_POST['md5me'])) {
 <form action="#" method="post" class="form-inline">
     <label for="sha1me">String:</label>
     <input name="sha1me" id="sha1me" type="text" class="form-control" />
+	<div class="cf-turnstile" data-sitekey="0x4AAAAAAA0mwmJW4SiePBYu"></div>
     <input class="btn btn-sm btn-primary" type="submit" value="Bret!" />
 </form>
 </p>
