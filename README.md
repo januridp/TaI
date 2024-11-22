@@ -1,9 +1,12 @@
-- [ ] Encode
-- [ ] Decode
-- [ ] Encrypt
-- [ ] Decrypt
+- [ ] Encode & Decode
+- [ ] Encrypt & Decrypt
 - [ ] Hash:
   - [ ] MD5
   - [ ] SHA
   - [ ] AES
-  
+- [ ] Easily convert text:
+  - [ ] lower case
+  - [ ] UPPER CASE
+  - [ ] Sentence case
+  - [ ] Capitalized Case
+  - [ ] aLtErNaTiNg cAsE
